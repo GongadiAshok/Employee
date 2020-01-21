@@ -28,7 +28,7 @@ public class EmployeeController {
 		return employeeService.getEmployee(id);
 	}
 
-	@RequestMapping(value = "/id", method = RequestMethod.GET)
+	@RequestMapping(value = "/getAll", method = RequestMethod.GET)
 	public List<Employee> getAll() {
 		return employeeService.getAll();
 	}
